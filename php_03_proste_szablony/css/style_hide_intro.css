@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 .splash-container {
 	display: none;
 }
 
 .content-wrapper {
 	top: 10%;
+=======
+.splash-container {
+	display: none;
+}
+
+.content-wrapper {
+	top: 10%;
+>>>>>>> 1bb389bb5e04bc63c15f24af20cf9842207c9860
 }

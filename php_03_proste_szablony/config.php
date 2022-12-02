@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 define('_SERVER_NAME', 'localhost:80');
 define('_SERVER_URL', 'http://'._SERVER_NAME);
@@ -10,4 +11,18 @@ function out(&$param){
 		echo $param;
 	}
 }
+=======
+<?php
+define('_SERVER_NAME', 'localhost:80');
+define('_SERVER_URL', 'http://'._SERVER_NAME);
+define('_APP_ROOT', '/php_03_proste_szablony');
+define('_APP_URL', _SERVER_URL._APP_ROOT);
+define("_ROOT_PATH", dirname(__FILE__));
+
+function out(&$param){
+	if (isset($param)){
+		echo $param;
+	}
+}
+>>>>>>> 1bb389bb5e04bc63c15f24af20cf9842207c9860
 ?>
